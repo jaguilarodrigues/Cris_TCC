@@ -1,0 +1,34 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_despedida": {
+      "slots": []
+    },
+    "utter_esporte": {
+      "slots": []
+    },
+    "utter_ambulatorio": {
+      "slots": []
+    },
+    "utter_saudacao": {
+      "slots": []
+    },
+    "utter_alimentacao": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.1",
+  "python": "3.6.7",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20181116-191946"
+}
