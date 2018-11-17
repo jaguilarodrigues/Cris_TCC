@@ -14,7 +14,7 @@ intents:
 - artmarc
 - musculacao
 - futsal
-- volei
+- voleibol
 - handebol
 - mapa
 - despedida
@@ -22,36 +22,35 @@ intents:
 #
 templates:
   utter_saudacao:
-    - text: "Olá, meu nome é Malu! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?"
-
+    - text: "Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?"
   utter_ambulatorio:
     - text: "Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.\n\nContato: (35) 3571-5064\n\nHorário de Atendimento Ambulatorial:"
-      image: './imagens/hora_ambulatorio.jpg'
+      image: "https://i.imgur.com/9REJf6R.jpg"
 
   utter_alimentacao:
     - text: "Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.\n\nContato: (35) 3571-5066\n\nHorário de Funcionamento do Refeitório:"
-      image: './imagens/hora_refeitorio.jpg'
+      image: "https://i.imgur.com/NtS8Ii4.jpg"
 
   utter_esporte:
     - text: "O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.\n\n-Artes Marciais\n-Musculação\n-Futsal\n-Voleibol\n-Handebol\n\nContato: (35) 3571-5072"
   utter_artmarc:
     - text: "Horarios de Treino das Artes Marciais:"
-      image: './imagens/hora_artmarc.jpg'
+      image: "https://i.imgur.com/5ZB7m9c.jpg"
   utter_musculacao:
     - text: "Horarios de Treino Musculação:"
-      image: './imagens/hora_musculacao.jpg'
+      image: "https://i.imgur.com/z0ZlCOf.jpg"
   utter_futsal:
     - text: "Horarios de Treino Futsal:"
-      image: './imagens/hora_futsal.jpg'
+      image: "https://i.imgur.com/SpYRXiM.jpg"
   utter_volei:
     - text: "Horarios de Treino Voleibol:"
-      image: './imagens/hora_voleibol.jpg'
+      image: "https://i.imgur.com/JqEY6Ea.jpg"
   utter_handebol:
     - text: "Horarios de Treino Handebol:"
-      image: './imagens/hora_handbol.jpg'
+      image: "https://i.imgur.com/AoM4zFd.jpg"
   utter_mapa:
     - text: "Mapa ilustrado do Campus Muzambinho:"
-      image: './imagens/Mapa.jpg'
+      image: "https://i.imgur.com/QN3Ntib.jpg"
   utter_despedida:
     - text: "Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/"
   utter_default:
