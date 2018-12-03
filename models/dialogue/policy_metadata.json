@@ -3,10 +3,10 @@
     "action_listen": {
       "slots": []
     },
-    "utter_despedida": {
+    "action_restart": {
       "slots": []
     },
-    "utter_ambulatorio": {
+    "utter_mapa": {
       "slots": []
     },
     "utter_saudacao": {
@@ -17,18 +17,23 @@
     },
     "utter_esporte": {
       "slots": []
+    },
+    "utter_ambulatorio": {
+      "slots": []
     }
   },
   "rasa_core": "0.12.1",
   "python": "3.6.7",
   "max_histories": [
-    2,
-    2
+    5,
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.memoization.MemoizationPolicy"
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20181117-112002"
+  "trained_at": "20181202-232322"
 }

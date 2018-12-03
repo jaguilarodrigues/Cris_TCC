@@ -1,42 +1,41 @@
 %YAML 1.1
 ---
 actions:
-- utter_mapa
-- utter_default
 - utter_alimentacao
-- utter_esporte
-- utter_artmarc
-- utter_musculacao
-- utter_volei
-- utter_despedida
-- utter_saudacao
+- utter_default
 - utter_handebol
 - utter_ambulatorio
-- action_listen
+- utter_voleibol
+- utter_mapa
+- utter_musculacao
+- utter_esporte
+- utter_despedida
+- utter_artmarc
+- utter_saudacao
+- action_restart
 - utter_futsal
 config:
   store_entities_as_slots: true
 entities:
 - modalidade
-- want
 forms: []
 intents:
-- alimentacao
+- artmarc
+- mapa
 - despedida
 - saudacao
-- artmarc
-- voleibol
 - esporte
 - ambulatorio
+- alimentacao
 - musculacao
 - futsal
+- voleibol
 - handebol
-- mapa
 - default
 slots: {}
 templates:
   utter_alimentacao:
-  - image: ./imagens/hora_refeitorio.jpg
+  - image: https://i.imgur.com/NtS8Ii4.jpg
     text: "Localizado na sede do Campus o refeitório busca oferecer alimentação saudável,\
       \ equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista.\
       \ Realiza projetos e ações educativas visando, entre outras questões, o melhor\
@@ -44,14 +43,14 @@ templates:
       \ estudantes e visitantes pode ser adquirido na Cooperativa- Escola.\n\nContato:\
       \ (35) 3571-5066\n\nHorário de Funcionamento do Refeitório:"
   utter_ambulatorio:
-  - image: ./imagens/hora_ambulatorio.jpg
+  - image: https://i.imgur.com/9REJf6R.jpg
     text: "Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde,\
       \ com atendimento médico, realizando ações de pronto atendimento como: consultas\
       \ e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui\
       \ ambulância própria para facilitar a locomoção em casos de urgência.\n\nContato:\
       \ (35) 3571-5064\n\nHorário de Atendimento Ambulatorial:"
   utter_artmarc:
-  - image: https://2e44bd85.ngrok.io/imagens/hora_artmarc.jpg
+  - image: https://i.imgur.com/5ZB7m9c.jpg
     text: 'Horarios de Treino das Artes Marciais:'
   utter_default:
   - text: Desculpe, não entendi o que disse :/
@@ -64,21 +63,21 @@ templates:
       \ social e cultural, de modo a incentivar a criatividade.\n\n-Artes Marciais\n\
       -Musculação\n-Futsal\n-Voleibol\n-Handebol\n\nContato: (35) 3571-5072"
   utter_futsal:
-  - image: https://2e44bd85.ngrok.io/imagens/hora_futsal.jpg
+  - image: https://i.imgur.com/SpYRXiM.jpg
     text: 'Horarios de Treino Futsal:'
   utter_handebol:
-  - image: https://2e44bd85.ngrok.io/imagens/hora_handbol.jpg
+  - image: https://i.imgur.com/AoM4zFd.jpg
     text: 'Horarios de Treino Handebol:'
   utter_mapa:
-  - image: https://2e44bd85.ngrok.io/imagens/Mapa.jpg
+  - image: https://i.imgur.com/QN3Ntib.jpg
     text: 'Mapa ilustrado do Campus Muzambinho:'
   utter_musculacao:
-  - image: https://2e44bd85.ngrok.io/imagens/hora_musculacao.jpg
+  - image: https://i.imgur.com/z0ZlCOf.jpg
     text: 'Horarios de Treino Musculação:'
   utter_saudacao:
-  - text: Olá, meu nome é Malu! Minha função é auxiliar você a compreender a estrutura
+  - text: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura
       e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia
       do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
-  utter_volei:
-  - image: https://2e44bd85.ngrok.io/imagens/hora_voleibol.jpg
+  utter_voleibol:
+  - image: https://i.imgur.com/JqEY6Ea.jpg
     text: 'Horarios de Treino Voleibol:'

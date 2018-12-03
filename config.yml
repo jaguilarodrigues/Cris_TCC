@@ -1,6 +1,14 @@
 policies:
   - name: KerasPolicy
     epochs: 300
-    max_history: 2
+    max_history: 5
   - name: MemoizationPolicy
-    max_history: 2
+    max_history: 5
+  #- name: kwargs
+  #  batch_size: 50
+  #  epochs: 200
+  #  max_training_samples: 300
+  - name: FallbackPolicy
+    fallback_action_name: action_default_fallback
+    core_threshold: 0.1
+    nlu_threshold: 0.1

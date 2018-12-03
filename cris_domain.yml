@@ -5,6 +5,11 @@
 #previsoes ao longo da conversa
 #Variaveis para o preenchimento ao longo da conversa
 
+config:
+  store_entities_as_slots: true
+entities:
+- modalidade
+- atividade
 #
 intents:
 - saudacao
@@ -42,7 +47,7 @@ templates:
   utter_futsal:
     - text: "Horarios de Treino Futsal:"
       image: "https://i.imgur.com/SpYRXiM.jpg"
-  utter_volei:
+  utter_voleibol:
     - text: "Horarios de Treino Voleibol:"
       image: "https://i.imgur.com/JqEY6Ea.jpg"
   utter_handebol:
@@ -64,7 +69,7 @@ actions:
 - utter_artmarc
 - utter_musculacao
 - utter_futsal
-- utter_volei
+- utter_voleibol
 - utter_handebol
 - utter_mapa
 - utter_despedida

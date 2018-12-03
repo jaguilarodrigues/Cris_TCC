@@ -1,49 +1,38 @@
 %YAML 1.1
 ---
 actions:
-- utter_saudacao
-- utter_ambulatorio
-- utter_alimentacao
-- utter_esporte
-- utter_artmarc
 - utter_musculacao
+- utter_despedida
+- utter_ambulatorio
+- utter_mapa
+- utter_artmarc
+- utter_alimentacao
+- utter_saudacao
 - utter_futsal
 - utter_voleibol
 - utter_handebol
-- utter_mapa
-- utter_despedida
 - utter_default
+- action_listen
+- utter_esporte
 config:
   store_entities_as_slots: true
 entities:
-- modalidade
 - atividade
+- modalidade
 forms: []
 intents:
-- saudacao:
-    use_entities: true
-- ambulatorio:
-    use_entities: true
-- alimentacao:
-    use_entities: true
-- esporte:
-    use_entities: true
-- artmarc:
-    use_entities: true
-- musculacao:
-    use_entities: true
-- futsal:
-    use_entities: true
-- voleibol:
-    use_entities: true
-- handebol:
-    use_entities: true
-- mapa:
-    use_entities: true
-- despedida:
-    use_entities: true
-- default:
-    use_entities: true
+- artmarc
+- saudacao
+- ambulatorio
+- alimentacao
+- esporte
+- musculacao
+- futsal
+- voleibol
+- handebol
+- mapa
+- despedida
+- default
 slots: {}
 templates:
   utter_alimentacao:

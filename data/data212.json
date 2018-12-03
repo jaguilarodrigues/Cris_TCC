@@ -2,105 +2,132 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "text": "Ola",
         "intent": "saudacao",
-        "text": "Ola"
+        "entities": []
       },
       {
+        "text": "Tchau",
         "intent": "despedida",
-        "text": "Tchau"
+        "entities": []
       },
       {
+        "text": "Hey",
         "intent": "saudacao",
-        "text": "Hey"
+        "entities": []
       },
       {
+        "text": "oi",
         "intent": "saudacao",
-        "text": "oi"
+        "entities": []
       },
       {
+        "text": "fui",
         "intent": "despedida",
-        "text": "fui"
+        "entities": []
       },
       {
+        "text": "xau",
         "intent": "despedida",
-        "text": "xau"
+        "entities": []
       },
       {
+        "text": "teh",
         "intent": "despedida",
-        "text": "teh"
+        "entities": []
       },
       {
+        "text": "Olá, eu preciso de informacoes",
         "intent": "saudacao",
-        "text": "Olá, eu preciso de informacoes"
+        "entities": []
       },
       {
+        "text": "Oi, preciso de ajuda",
         "intent": "saudacao",
-        "text": "Oi, preciso de ajuda"
+        "entities": []
       },
       {
+        "text": "Oi",
         "intent": "saudacao",
-        "text": "Oi"
+        "entities": []
       },
       {
+        "text": "Oi, bom dia, como vai?",
         "intent": "saudacao",
-        "text": "Oi, bom dia, como vai?"
+        "entities": []
       },
       {
+        "text": "Oi, bom dia",
         "intent": "saudacao",
-        "text": "Oi, bom dia"
+        "entities": []
       },
       {
-        "text": "Oi, boa tarde"
+        "text": "Oi, boa tarde",
+        "intent": "",
+        "entities": []
       },
       {
+        "text": "Oi, boa noite",
         "intent": "saudacao",
-        "text": "Oi, boa noite"
+        "entities": []
       },
       {
+        "text": "Oi, tudo bem?",
         "intent": "saudacao",
-        "text": "Oi, tudo bem?"
+        "entities": []
       },
       {
+        "text": "Oie",
         "intent": "saudacao",
-        "text": "Oie"
+        "entities": []
       },
       {
+        "text": "coé parsa",
         "intent": "saudacao",
-        "text": "coé parsa"
+        "entities": []
       },
       {
+        "text": "Olá",
         "intent": "saudacao",
-        "text": "Olá"
+        "entities": []
       },
       {
+        "text": "Como estás? ",
         "intent": "saudacao",
-        "text": "Como estás? "
+        "entities": []
       },
       {
+        "text": "eaee",
         "intent": "saudacao",
-        "text": "eaee"
+        "entities": []
       },
       {
+        "text": "ow",
         "intent": "saudacao",
-        "text": "ow"
+        "entities": []
       },
       {
+        "text": "Não estou me sentindo bem",
         "intent": "ambulatorio",
-        "text": "Não estou me sentindo bem"
+        "entities": []
       },
       {
+        "text": "Estou com dor",
         "intent": "ambulatorio",
-        "text": "Estou com dor"
+        "entities": []
       },
       {
+        "text": "Preciso de ajuda médica",
         "intent": "ambulatorio",
-        "text": "Preciso de ajuda médica"
+        "entities": []
       },
       {
+        "text": "Eu não tô bem",
         "intent": "ambulatorio",
-        "text": "Eu não tô bem"
+        "entities": []
       },
       {
+        "text": "Qual o horário de atendimento do ambulatorio no meio da semana e no fim de semana?",
         "intent": "ambulatorio",
         "entities": [
           {
@@ -109,66 +136,80 @@
             "value": "ambulatorio ",
             "entity": "atividade"
           }
-        ],
-        "text": "Qual o horário de atendimento do ambulatorio no meio da semana e no fim de semana?"
+        ]
       },
       {
+        "text": "Vocês podem me prescrever remédio? ",
         "intent": "ambulatorio",
-        "text": "Vocês podem me prescrever remédio? "
+        "entities": []
       },
       {
+        "text": "O médico trabalha o dia todo ou só o técnico? ",
         "intent": "ambulatorio",
-        "text": "O médico trabalha o dia todo ou só o técnico? "
+        "entities": []
       },
       {
+        "text": "A ambulância pode me levar na cidade? ",
         "intent": "ambulatorio",
-        "text": "A ambulância pode me levar na cidade? "
+        "entities": []
       },
       {
+        "text": "Quero saber onde encontro um enfermeiro",
         "intent": "ambulatorio",
-        "text": "Quero saber onde encontro um enfermeiro"
+        "entities": []
       },
       {
+        "text": "Você pode me dizer onde fica o ambulatorio e o que eles podem fazer por mim?",
         "intent": "ambulatorio",
-        "text": "Você pode me dizer onde fica o ambulatorio e o que eles podem fazer por mim?"
+        "entities": []
       },
       {
+        "text": "Estou passando mal",
         "intent": "ambulatorio",
-        "text": "Estou passando mal"
+        "entities": []
       },
       {
+        "text": "Estou com dor de cabeça, onde vou? ",
         "intent": "ambulatorio",
-        "text": "Estou com dor de cabeça, onde vou? "
+        "entities": []
       },
       {
+        "text": "Preciso de um remédio pra dor de cabeça ",
         "intent": "ambulatorio",
-        "text": "Preciso de um remédio pra dor de cabeça "
+        "entities": []
       },
       {
+        "text": "onde fica a enfermaria?",
         "intent": "mapa",
-        "text": "onde fica a enfermaria?"
+        "entities": []
       },
       {
+        "text": "Eu não estou bem.",
         "intent": "ambulatorio",
-        "text": "Eu não estou bem."
+        "entities": []
       },
       {
+        "text": "Estou com muita dor, preciso de um médico",
         "intent": "ambulatorio",
-        "text": "Estou com muita dor, preciso de um médico"
+        "entities": []
       },
       {
+        "text": "Onde posso comer?",
         "intent": "alimentacao",
-        "text": "Onde posso comer?"
+        "entities": []
       },
       {
+        "text": "Aqui vende comida?",
         "intent": "alimentacao",
-        "text": "Aqui vende comida?"
+        "entities": []
       },
       {
+        "text": "Que horas é o almoço?",
         "intent": "alimentacao",
-        "text": "Que horas é o almoço?"
+        "entities": []
       },
       {
+        "text": "Que horas é a janta?",
         "intent": "alimentacao",
         "entities": [
           {
@@ -177,10 +218,10 @@
             "value": "janta",
             "entity": "atividade"
           }
-        ],
-        "text": "Que horas é a janta?"
+        ]
       },
       {
+        "text": "Que horas é o cafe da manha?",
         "intent": "alimentacao",
         "entities": [
           {
@@ -189,10 +230,10 @@
             "value": "cafe da manha",
             "entity": "atividade"
           }
-        ],
-        "text": "Que horas é o cafe da manha?"
+        ]
       },
       {
+        "text": "Que horas é o cafe da noite?",
         "intent": "alimentacao",
         "entities": [
           {
@@ -201,238 +242,295 @@
             "value": "cafe da noite",
             "entity": "atividade"
           }
-        ],
-        "text": "Que horas é o cafe da noite?"
+        ]
       },
       {
+        "text": "Tô com fome o q q tem?",
         "intent": "alimentacao",
-        "text": "Tô com fome o q q tem?"
+        "entities": []
       },
       {
+        "text": "Onde vocês comem? Tenho que pagar? ",
         "intent": "alimentacao",
-        "text": "Onde vocês comem? Tenho que pagar? "
+        "entities": []
       },
       {
+        "text": "Onde é o restaurante universitário? ",
         "intent": "mapa",
-        "text": "Onde é o restaurante universitário? "
+        "entities": []
       },
       {
+        "text": "O refeitório oferece todas as refeições? ",
         "intent": "alimentacao",
-        "text": "O refeitório oferece todas as refeições? "
+        "entities": []
       },
       {
+        "text": "Onde posso comer algo?",
         "intent": "alimentacao",
-        "text": "Onde posso comer algo?"
+        "entities": []
       },
       {
+        "text": "Onde posso almoçar?",
         "intent": "alimentacao",
-        "text": "Onde posso almoçar?"
+        "entities": []
       },
       {
+        "text": "A comida do refeitório é boa?",
         "intent": "alimentacao",
-        "text": "A comida do refeitório é boa?"
+        "entities": []
       },
       {
+        "text": "onde eu compro os tickets?",
         "intent": "alimentacao",
-        "text": "onde eu compro os tickets?"
+        "entities": []
       },
       {
+        "text": "O que tem de almoço hoje?",
         "intent": "alimentacao",
-        "text": "O que tem de almoço hoje?"
+        "entities": []
       },
       {
+        "text": "Vamos procurar algum lugar para comer? ",
         "intent": "alimentacao",
-        "text": "Vamos procurar algum lugar para comer? "
+        "entities": []
       },
       {
+        "text": "Onde posso janta?",
         "intent": "alimentacao",
-        "text": "Onde posso janta?"
+        "entities": []
       },
       {
+        "text": "O que tem de janta hoje?",
         "intent": "alimentacao",
-        "text": "O que tem de janta hoje?"
+        "entities": []
       },
       {
+        "text": "Onde tem cafe da manha?",
         "intent": "alimentacao",
-        "text": "Onde tem cafe da manha?"
+        "entities": []
       },
       {
+        "text": "Quais os esportes oferecidos aqui",
         "intent": "esporte",
-        "text": "Quais os esportes oferecidos aqui"
+        "entities": []
       },
       {
+        "text": "Posso praticar algum esporte",
         "intent": "esporte",
-        "text": "Posso praticar algum esporte"
+        "entities": []
       },
       {
+        "text": "Tem esporte aqui",
         "intent": "esporte",
-        "text": "Tem esporte aqui"
+        "entities": []
       },
       {
+        "text": "Aqui tem algum lugar onde praticam esportes?",
         "intent": "esporte",
-        "text": "Aqui tem algum lugar onde praticam esportes?"
+        "entities": []
       },
       {
+        "text": "Quais esportes o campus oferece?",
         "intent": "esporte",
-        "text": "Quais esportes o campus oferece?"
+        "entities": []
       },
       {
+        "text": "Posso fazer quantas atividades? ",
         "intent": "esporte",
-        "text": "Posso fazer quantas atividades? "
+        "entities": []
       },
       {
+        "text": "Vocês treinam vôlei aqui?",
         "intent": "esporte",
-        "text": "Vocês treinam vôlei aqui?"
+        "entities": []
       },
       {
+        "text": "No IF tem times esportivos?",
         "intent": "esporte",
-        "text": "No IF tem times esportivos?"
+        "entities": []
       },
       {
+        "text": "O instituto possui alguma atividade extra curricular?",
         "intent": "esporte",
-        "text": "O instituto possui alguma atividade extra curricular?"
+        "entities": []
       },
       {
+        "text": "Aqui no instituto tem handebol ?",
         "intent": "esporte",
-        "text": "Aqui no instituto tem handebol ?"
+        "entities": []
       },
       {
+        "text": "tem uma academia no campus?",
         "intent": "esporte",
-        "text": "tem uma academia no campus?"
+        "entities": []
       },
       {
+        "text": "Que tipo de esporte eu poderia praticar aqui?",
         "intent": "esporte",
-        "text": "Que tipo de esporte eu poderia praticar aqui?"
+        "entities": []
       },
       {
+        "text": "Preciso fazer aulas de danças, onde encontro o lugar mais próximos com atividades?",
         "intent": "esporte",
-        "text": "Preciso fazer aulas de danças, onde encontro o lugar mais próximos com atividades?"
+        "entities": []
       },
       {
+        "text": "O instituto oferece aulas de esportes?",
         "intent": "esporte",
-        "text": "O instituto oferece aulas de esportes?"
+        "entities": []
       },
       {
+        "text": "Onde é o restaurante universitário? ",
         "intent": "mapa",
-        "text": "Onde é o restaurante universitário? "
+        "entities": []
       },
       {
+        "text": "Onde fica o prédio H",
         "intent": "mapa",
-        "text": "Onde fica o prédio H"
+        "entities": []
       },
       {
+        "text": "Onde fica o prédio da Administração",
         "intent": "mapa",
-        "text": "Onde fica o prédio da Administração"
+        "entities": []
       },
       {
+        "text": "Onde fica a biblioteca",
         "intent": "mapa",
-        "text": "Onde fica a biblioteca"
+        "entities": []
       },
       {
+        "text": "Onde q fica",
         "intent": "mapa",
-        "text": "Onde q fica"
+        "entities": []
       },
       {
+        "text": "Onde vou pra saber mais sobre o lugar? ",
         "intent": "mapa",
-        "text": "Onde vou pra saber mais sobre o lugar? "
+        "entities": []
       },
       {
+        "text": "Como chego até a  ",
         "intent": "mapa",
-        "text": "Como chego até a  "
+        "entities": []
       },
       {
+        "text": "O campus tem algum mapa?",
         "intent": "mapa",
-        "text": "O campus tem algum mapa?"
+        "entities": []
       },
       {
+        "text": "Onde fica",
         "intent": "mapa",
-        "text": "Onde fica"
+        "entities": []
       },
       {
+        "text": "Onde fica a biblioteca?",
         "intent": "mapa",
-        "text": "Onde fica a biblioteca?"
+        "entities": []
       },
       {
+        "text": "Estou perdida pode me ajudar",
         "intent": "mapa",
-        "text": "Estou perdida pode me ajudar"
+        "entities": []
       },
       {
+        "text": "existe um mapa daqui do campus?",
         "intent": "mapa",
-        "text": "existe um mapa daqui do campus?"
+        "entities": []
       },
       {
+        "text": "Onde fica a secretária? ",
         "intent": "mapa",
-        "text": "Onde fica a secretária? "
+        "entities": []
       },
       {
+        "text": "Onde fica o Predio tecnológico ",
         "intent": "mapa",
-        "text": "Onde fica o Predio tecnológico "
+        "entities": []
       },
       {
+        "text": "como chego",
         "intent": "mapa",
-        "text": "como chego"
+        "entities": []
       },
       {
+        "text": "Obrigada pela ajuda",
         "intent": "despedida",
-        "text": "Obrigada pela ajuda"
+        "entities": []
       },
       {
+        "text": "Até logo",
         "intent": "despedida",
-        "text": "Até logo"
+        "entities": []
       },
       {
+        "text": "Obrigada, até mais",
         "intent": "despedida",
-        "text": "Obrigada, até mais"
+        "entities": []
       },
       {
+        "text": "Tchau, até mais!",
         "intent": "despedida",
-        "text": "Tchau, até mais!"
+        "entities": []
       },
       {
+        "text": "Bye ",
         "intent": "despedida",
-        "text": "Bye "
+        "entities": []
       },
       {
+        "text": "Até mais, muito obrigada! ",
         "intent": "despedida",
-        "text": "Até mais, muito obrigada! "
+        "entities": []
       },
       {
+        "text": "Tchau, obrigadx!",
         "intent": "despedida",
-        "text": "Tchau, obrigadx!"
+        "entities": []
       },
       {
+        "text": "Até mais",
         "intent": "despedida",
-        "text": "Até mais"
+        "entities": []
       },
       {
+        "text": "A gente se encontra por aí",
         "intent": "despedida",
-        "text": "A gente se encontra por aí"
+        "entities": []
       },
       {
+        "text": "falous parsa 🤙",
         "intent": "despedida",
-        "text": "falous parsa 🤙"
+        "entities": []
       },
       {
+        "text": "falous parsa",
         "intent": "despedida",
-        "text": "falous parsa"
+        "entities": []
       },
       {
+        "text": "Até mais!",
         "intent": "despedida",
-        "text": "Até mais!"
+        "entities": []
       },
       {
+        "text": "Adeus",
         "intent": "despedida",
-        "text": "Adeus"
+        "entities": []
       },
       {
+        "text": "Até logo",
         "intent": "despedida",
-        "text": "Até logo"
+        "entities": []
       },
       {
+        "text": "flw",
         "intent": "despedida",
-        "text": "flw"
+        "entities": []
       },
       {
+        "text": "quero treinar muay thai",
         "intent": "artmarc",
         "entities": [
           {
@@ -441,10 +539,10 @@
             "value": "muay thai",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar muay thai"
+        ]
       },
       {
+        "text": "quero treinar jiu jitsu",
         "intent": "artmarc",
         "entities": [
           {
@@ -453,10 +551,10 @@
             "value": "jiu jitsu",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar jiu jitsu"
+        ]
       },
       {
+        "text": "quero treinar voleibol",
         "intent": "voleibol",
         "entities": [
           {
@@ -465,10 +563,10 @@
             "value": "voleibol",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar voleibol"
+        ]
       },
       {
+        "text": "quero treinar volei",
         "intent": "voleibol",
         "entities": [
           {
@@ -477,11 +575,11 @@
             "value": "volei",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar volei"
+        ]
       },
       {
-        "intent": "futsal",
+        "text": "quero treinar futsal",
+        "intent": " futsal",
         "entities": [
           {
             "start": 14,
@@ -489,11 +587,11 @@
             "value": "futsal",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar futsal"
+        ]
       },
       {
-        "intent": "futsal",
+        "text": "quero treinar fut",
+        "intent": " futsal",
         "entities": [
           {
             "start": 14,
@@ -501,10 +599,10 @@
             "value": "fut",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar fut"
+        ]
       },
       {
+        "text": "quero treinar handebol",
         "intent": "handebol",
         "entities": [
           {
@@ -513,10 +611,10 @@
             "value": "handebol",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar handebol"
+        ]
       },
       {
+        "text": "quero treinar musculacao",
         "intent": "musculacao",
         "entities": [
           {
@@ -525,10 +623,10 @@
             "value": "musculacao",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar musculacao"
+        ]
       },
       {
+        "text": "quero treinar muscu",
         "intent": "musculacao",
         "entities": [
           {
@@ -537,10 +635,10 @@
             "value": "muscu",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar muscu"
+        ]
       },
       {
+        "text": "quero treinar judo",
         "intent": "artmarc",
         "entities": [
           {
@@ -549,10 +647,10 @@
             "value": "judo",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar judo"
+        ]
       },
       {
+        "text": "quero treinar muay thai",
         "intent": "artmarc",
         "entities": [
           {
@@ -561,10 +659,10 @@
             "value": "muay thai",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar muay thai"
+        ]
       },
       {
+        "text": "quero treinar jiu",
         "intent": "artmarc",
         "entities": [
           {
@@ -573,10 +671,10 @@
             "value": "jiu",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero treinar jiu"
+        ]
       },
       {
+        "text": "que horas tem treino de jiu",
         "intent": "artmarc",
         "entities": [
           {
@@ -591,10 +689,10 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de jiu"
+        ]
       },
       {
+        "text": "que horas tem treino de muay thai",
         "intent": "artmarc",
         "entities": [
           {
@@ -609,10 +707,10 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de muay thai"
+        ]
       },
       {
+        "text": "que horas tem treino de voleibol",
         "intent": "voleibol",
         "entities": [
           {
@@ -627,10 +725,10 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de voleibol"
+        ]
       },
       {
+        "text": "que horas tem treino de volei",
         "intent": "voleibol",
         "entities": [
           {
@@ -645,10 +743,10 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de volei"
+        ]
       },
       {
+        "text": "que horas tem treino de handebol",
         "intent": "handebol",
         "entities": [
           {
@@ -663,11 +761,11 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de handebol"
+        ]
       },
       {
-        "intent": "futsal",
+        "text": "que horas tem treino de futsal",
+        "intent": " futsal",
         "entities": [
           {
             "start": 24,
@@ -681,11 +779,11 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de futsal"
+        ]
       },
       {
-        "intent": "futsal",
+        "text": "que horas tem treino de fut",
+        "intent": " futsal",
         "entities": [
           {
             "start": 24,
@@ -699,10 +797,10 @@
             "value": "treino ",
             "entity": "atividade"
           }
-        ],
-        "text": "que horas tem treino de fut"
+        ]
       },
       {
+        "text": "que horas funciona a academia de musculaçao",
         "intent": "musculacao",
         "entities": [
           {
@@ -711,10 +809,10 @@
             "value": "musculaçao",
             "entity": "modalidade"
           }
-        ],
-        "text": "que horas funciona a academia de musculaçao"
+        ]
       },
       {
+        "text": "que horas funciona a academia ",
         "intent": "musculacao",
         "entities": [
           {
@@ -723,14 +821,15 @@
             "value": "academia",
             "entity": "modalidade"
           }
-        ],
-        "text": "que horas funciona a academia "
+        ]
       },
       {
+        "text": "to com fome ",
         "intent": "alimentacao",
-        "text": "to com fome "
+        "entities": []
       },
       {
+        "text": "quero malhar",
         "intent": "musculacao",
         "entities": [
           {
@@ -739,10 +838,10 @@
             "value": "malhar",
             "entity": "modalidade"
           }
-        ],
-        "text": "quero malhar"
+        ]
       },
       {
+        "text": "que horas posso malhar",
         "intent": "musculacao",
         "entities": [
           {
@@ -751,10 +850,10 @@
             "value": "malhar",
             "entity": "modalidade"
           }
-        ],
-        "text": "que horas posso malhar"
+        ]
       },
       {
+        "text": "preciso definir",
         "intent": "musculacao",
         "entities": [
           {
@@ -763,18 +862,20 @@
             "value": "definir",
             "entity": "modalidade"
           }
-        ],
-        "text": "preciso definir"
+        ]
       },
       {
+        "text": "gostaria de saber sobre o ambulatório",
         "intent": "ambulatorio",
-        "text": "gostaria de saber sobre o ambulatório"
+        "entities": []
       },
       {
+        "text": "quais os horários de refeições no refeitório",
         "intent": "alimentacao",
-        "text": "quais os horários de refeições no refeitório"
+        "entities": []
       },
       {
+        "text": "Quais os horários dos treinos de artes marciais no IF",
         "intent": "artmarc",
         "entities": [
           {
@@ -783,10 +884,10 @@
             "value": "artes marciais ",
             "entity": "modalidade"
           }
-        ],
-        "text": "Quais os horários dos treinos de artes marciais no IF"
+        ]
       },
       {
+        "text": "os horários dos treinos de artes marciais",
         "intent": "artmarc",
         "entities": [
           {
@@ -795,10 +896,10 @@
             "value": "artes marciais",
             "entity": "modalidade"
           }
-        ],
-        "text": "os horários dos treinos de artes marciais"
+        ]
       },
       {
+        "text": "os horários de funcionamento da academia no IF",
         "intent": "musculacao",
         "entities": [
           {
@@ -807,10 +908,10 @@
             "value": "academia ",
             "entity": "modalidade"
           }
-        ],
-        "text": "os horários de funcionamento da academia no IF"
+        ]
       },
       {
+        "text": "os horários de treino de handebol",
         "intent": "handebol",
         "entities": [
           {
@@ -819,10 +920,10 @@
             "value": "handebol",
             "entity": "modalidade"
           }
-        ],
-        "text": "os horários de treino de handebol"
+        ]
       },
       {
+        "text": "os horários de treino de voleibol",
         "intent": "voleibol",
         "entities": [
           {
@@ -831,11 +932,11 @@
             "value": "voleibol",
             "entity": "modalidade"
           }
-        ],
-        "text": "os horários de treino de voleibol"
+        ]
       },
       {
-        "intent": "futsal",
+        "text": "os horários de treino de futsal",
+        "intent": " futsal",
         "entities": [
           {
             "start": 25,
@@ -843,16 +944,13 @@
             "value": "futsal",
             "entity": "modalidade"
           }
-        ],
-        "text": "os horários de treino de futsal"
+        ]
       },
       {
+        "text": "vc tem o mapa da instituição",
         "intent": "mapa",
-        "text": "vc tem o mapa da instituição"
+        "entities": []
       }
-    ],
-    "regex_features": [],
-    "lookup_tables": [],
-    "entity_synonyms": []
+    ]
   }
 }

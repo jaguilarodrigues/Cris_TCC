@@ -17,13 +17,15 @@
 ##story_005
 * despedida
     - utter_despedida
+    - action_restart
+
 ## Generated Story 4703088230308136859
 * saudacao
     - utter_saudacao
 * artmarc{"modalidade": "jiu"}
     - utter_artmarc
 * voleibol{"modalidade": "volei"}
-    - utter_volei
+    - utter_voleibol
 * despedida
     - utter_despedida
 ## Generated Story -7119292523640962626
@@ -63,7 +65,7 @@
 * artmarc{"modalidade": "artes marciais"}
     - utter_artmarc
 * voleibol{"modalidade": "volei"}
-    - utter_volei
+    - utter_voleibol
 * ambulatorio
     - utter_ambulatorio
 * alimentacao
