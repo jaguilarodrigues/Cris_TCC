@@ -49,16 +49,10 @@
     - utter_despedida
     - action_restart
 
-## Story jiu
-* saudacao
-    - utter_saudacao
-* esporte
-    - utter_esporte
-* artmarc{"atividade": "treino", "modalidade": "jiu jitsu"}
+## Story jiu alo
+
+* artmarc{"modalidade": "jiu jitsu"}
     - utter_artmarc
-* despedida
-    - utter_despedida
-    - action_restart
 
 
 ## Story Muay Thai
@@ -72,16 +66,10 @@
     - utter_despedida
     - action_restart
 
-## Story Muay Thai Horarios
-* saudacao
-    - utter_saudacao
-* esporte
-    - utter_esporte
-* artmarc{"atividade": "treino", "modalidade": "Muay Thai"}
+## Story Muay Thai alo
+* artmarc{ "modalidade": "Muay Thai"}
     - utter_artmarc
-* despedida
-    - utter_despedida
-    - action_restart
+
 
 ## Story Judo
 * saudacao
@@ -94,16 +82,9 @@
     - utter_despedida
     - action_restart
 
-## Story Judo Horarios
-* saudacao
-    - utter_saudacao
-* esporte
-    - utter_esporte
-* artmarc{"atividade": "treino", "modalidade": "Judo"}
+## Story Judo alo
+* artmarc{"modalidade": "Judo"}
     - utter_artmarc                        
-* despedida
-    - utter_despedida
-    - action_restart
 
 
 ## Story Voleibol
@@ -117,16 +98,9 @@
     - utter_despedida
     - action_restart
 
-## Story Voleibol Horarios
-* saudacao
-    - utter_saudacao
-* esporte
-    - utter_esporte
-* voleibol{"atividade": "treino", "modalidade": "voleibol"}
+## Story Voleibol alo
+* voleibol{ "modalidade": "voleibol"}
     - utter_voleibol                       
-* despedida
-    - utter_despedida
-    - action_restart
 
 
 ## Story handebol
@@ -140,16 +114,9 @@
     - utter_despedida
     - action_restart
 
-## Story handebol Horarios
-* saudacao
-    - utter_saudacao
-* esporte
-    - utter_esporte
-* voleibol{"atividade": "treino", "modalidade": "handebol"}
+## Story handebol alo
+* voleibol{"modalidade": "handebol"}
     - utter_handebol                       
-* despedida
-    - utter_despedida
-    - action_restart
 
 ## Story futsal
 * saudacao
@@ -162,16 +129,9 @@
     - utter_despedida
     - action_restart
 
-## Story futsal Horarios
-* saudacao
-    - utter_saudacao
-* esporte
-    - utter_esporte
-* voleibol{"atividade": "treino", "modalidade": "futsal"}
+## Story futsal alo
+* voleibol{ "modalidade": "futsal"}
     - utter_futsal                       
-* despedida
-    - utter_despedida
-    - action_restart
 
 ## Story ambulatorio Horarios
 * saudacao

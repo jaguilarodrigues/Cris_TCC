@@ -13,7 +13,6 @@
     "intent_saudacao",
     "intent_voleibol",
     "entity_modalidade",
-    "entity_atividade",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",

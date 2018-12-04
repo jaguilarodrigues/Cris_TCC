@@ -17,7 +17,6 @@ config:
   store_entities_as_slots: true
 entities:
 - modalidade
-- atividade
 forms: []
 intents:
 - saudacao:

@@ -3,11 +3,11 @@
     "common_examples": [
       {
         "intent": "saudacao",
-        "text": "Ola"
+        "text": "oi boa noite"
       },
       {
-        "intent": "despedida",
-        "text": "Tchau"
+        "intent": "saudacao",
+        "text": "Ola"
       },
       {
         "intent": "saudacao",
@@ -16,18 +16,6 @@
       {
         "intent": "saudacao",
         "text": "oi"
-      },
-      {
-        "intent": "despedida",
-        "text": "fui"
-      },
-      {
-        "intent": "despedida",
-        "text": "xau"
-      },
-      {
-        "intent": "despedida",
-        "text": "teh"
       },
       {
         "intent": "saudacao",
@@ -39,17 +27,18 @@
       },
       {
         "intent": "saudacao",
-        "text": "Oi"
+        "text": "Oi, bom dia, como vai?"
       },
       {
         "intent": "saudacao",
-        "text": "Oi, bom dia, como vai?"
+        "text": "Oi"
       },
       {
         "intent": "saudacao",
         "text": "Oi, bom dia"
       },
       {
+        "intent": "saudacao",
         "text": "Oi, boa tarde"
       },
       {
@@ -66,15 +55,11 @@
       },
       {
         "intent": "saudacao",
-        "text": "coé parsa"
-      },
-      {
-        "intent": "saudacao",
         "text": "Olá"
       },
       {
         "intent": "saudacao",
-        "text": "Como estás? "
+        "text": "Como estás?"
       },
       {
         "intent": "saudacao",
@@ -83,6 +68,42 @@
       {
         "intent": "saudacao",
         "text": "ow"
+      },
+      {
+        "intent": "saudacao",
+        "text": "coé parsa"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Ola Cris"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou passando mal"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "ambulatorio"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou com dor de cabeça, onde vou?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Preciso de um remédio pra dor de cabeça"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "onde fica a enfermaria?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Eu não estou bem."
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou com muita dor, preciso de um médico"
       },
       {
         "intent": "ambulatorio",
@@ -102,27 +123,19 @@
       },
       {
         "intent": "ambulatorio",
-        "entities": [
-          {
-            "start": 33,
-            "end": 45,
-            "value": "ambulatorio ",
-            "entity": "atividade"
-          }
-        ],
         "text": "Qual o horário de atendimento do ambulatorio no meio da semana e no fim de semana?"
       },
       {
         "intent": "ambulatorio",
-        "text": "Vocês podem me prescrever remédio? "
+        "text": "Vocês podem me prescrever remédio?"
       },
       {
         "intent": "ambulatorio",
-        "text": "O médico trabalha o dia todo ou só o técnico? "
+        "text": "O médico trabalha o dia todo ou só o técnico?"
       },
       {
         "intent": "ambulatorio",
-        "text": "A ambulância pode me levar na cidade? "
+        "text": "A ambulância pode me levar na cidade?"
       },
       {
         "intent": "ambulatorio",
@@ -130,7 +143,35 @@
       },
       {
         "intent": "ambulatorio",
-        "text": "Você pode me dizer onde fica o ambulatorio e o que eles podem fazer por mim?"
+        "text": "Estou com um pouco de dor"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "qual o horário de funcionamento do ambulatório?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "qual o horário de funcionamento do Ambulatório ?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou doente Cris"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Quais os horários em que o ambulatório do IF fica aberto?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "o ambulatório está aberto ?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "horarios do ambulatório?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "há ambulatório no ifsuldeminas?"
       },
       {
         "intent": "ambulatorio",
@@ -138,87 +179,31 @@
       },
       {
         "intent": "ambulatorio",
-        "text": "Estou com dor de cabeça, onde vou? "
+        "text": "como é o ambulatório do campus Muzambinho?"
       },
       {
         "intent": "ambulatorio",
-        "text": "Preciso de um remédio pra dor de cabeça "
-      },
-      {
-        "intent": "mapa",
-        "text": "onde fica a enfermaria?"
+        "text": "ambulatorio?"
       },
       {
         "intent": "ambulatorio",
-        "text": "Eu não estou bem."
-      },
-      {
-        "intent": "ambulatorio",
-        "text": "Estou com muita dor, preciso de um médico"
+        "text": "me fale sobre o ambulatório"
       },
       {
         "intent": "alimentacao",
-        "text": "Onde posso comer?"
+        "text": "Aonde posso comer?"
       },
       {
         "intent": "alimentacao",
-        "text": "Aqui vende comida?"
+        "text": "O refeitório oferece todas as refeições?"
       },
       {
         "intent": "alimentacao",
-        "text": "Que horas é o almoço?"
+        "text": "refeitorio"
       },
       {
         "intent": "alimentacao",
-        "entities": [
-          {
-            "start": 14,
-            "end": 19,
-            "value": "janta",
-            "entity": "atividade"
-          }
-        ],
-        "text": "Que horas é a janta?"
-      },
-      {
-        "intent": "alimentacao",
-        "entities": [
-          {
-            "start": 14,
-            "end": 27,
-            "value": "cafe da manha",
-            "entity": "atividade"
-          }
-        ],
-        "text": "Que horas é o cafe da manha?"
-      },
-      {
-        "intent": "alimentacao",
-        "entities": [
-          {
-            "start": 14,
-            "end": 27,
-            "value": "cafe da noite",
-            "entity": "atividade"
-          }
-        ],
-        "text": "Que horas é o cafe da noite?"
-      },
-      {
-        "intent": "alimentacao",
-        "text": "Tô com fome o q q tem?"
-      },
-      {
-        "intent": "alimentacao",
-        "text": "Onde vocês comem? Tenho que pagar? "
-      },
-      {
-        "intent": "mapa",
-        "text": "Onde é o restaurante universitário? "
-      },
-      {
-        "intent": "alimentacao",
-        "text": "O refeitório oferece todas as refeições? "
+        "text": "comida"
       },
       {
         "intent": "alimentacao",
@@ -242,7 +227,7 @@
       },
       {
         "intent": "alimentacao",
-        "text": "Vamos procurar algum lugar para comer? "
+        "text": "Vamos procurar algum lugar para comer?"
       },
       {
         "intent": "alimentacao",
@@ -255,6 +240,106 @@
       {
         "intent": "alimentacao",
         "text": "Onde tem cafe da manha?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde posso comer?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde vocês comem? Tenho que pagar?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Aqui vende comida?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Estou com fome"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Quais são os horários de refeições no refeitório"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Quais os horários de refeições no refeitório?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "quais os horários de refeições do refeitório?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "em que horário é o almoço no refeitório ?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Comida"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Refeitório"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Quero café do refeitório"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "A cantina é aberta até que horas"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Quero jantar"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Será que dá pra comer a esse horário ?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Quais os horários das refeições no refeitório do Campus?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "qual o horário do almoço ?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o almoço?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o almoço?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o cafe da manha?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o cafe da noite?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Tô com fome o q q tem?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Quais os horários de funcionamento do refeitório ?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "horários do refeitorio?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "que horas abre o refeitório?"
+      },
+      {
+        "intent": "esporte",
+        "text": "E quais esportes são ofertados e treinos no IF?"
       },
       {
         "intent": "esporte",
@@ -278,7 +363,7 @@
       },
       {
         "intent": "esporte",
-        "text": "Posso fazer quantas atividades? "
+        "text": "Posso fazer quantas atividades?"
       },
       {
         "intent": "esporte",
@@ -290,11 +375,11 @@
       },
       {
         "intent": "esporte",
-        "text": "O instituto possui alguma atividade extra curricular?"
+        "text": "Aqui no instituto tem handebol ?"
       },
       {
         "intent": "esporte",
-        "text": "Aqui no instituto tem handebol ?"
+        "text": "O instituto possui alguma atividade extra curricular?"
       },
       {
         "intent": "esporte",
@@ -313,124 +398,100 @@
         "text": "O instituto oferece aulas de esportes?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde é o restaurante universitário? "
+        "intent": "esporte",
+        "text": "quero treinar"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica o prédio H"
+        "intent": "esporte",
+        "text": "há esportes?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica o prédio da Administração"
+        "intent": "esporte",
+        "text": "quais esportes são ofertados no IF ?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica a biblioteca"
+        "intent": "esporte",
+        "text": "Quais esportes são ofertados pelo IF?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde q fica"
+        "intent": "esporte",
+        "text": "Quais os esportes oferecidos pelo IF ?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde vou pra saber mais sobre o lugar? "
+        "intent": "esporte",
+        "text": "quias esportes o campus oferece?"
       },
       {
-        "intent": "mapa",
-        "text": "Como chego até a  "
+        "intent": "esporte",
+        "text": "Quero fazer alguma atividade física"
       },
       {
-        "intent": "mapa",
-        "text": "O campus tem algum mapa?"
+        "intent": "esporte",
+        "text": "quais esportes se pode praticar no campus ?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica"
+        "intent": "esporte",
+        "text": "Quais são os horários do treinamento"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica a biblioteca?"
+        "intent": "esporte",
+        "text": "Quero fazer algum esporte"
       },
       {
-        "intent": "mapa",
-        "text": "Estou perdida pode me ajudar"
+        "intent": "esporte",
+        "text": "Estou sedentário"
       },
       {
-        "intent": "mapa",
-        "text": "existe um mapa daqui do campus?"
+        "intent": "esporte",
+        "text": "horário dos esportes?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica a secretária? "
+        "intent": "esporte",
+        "text": "quais as modalidades esportivas do if?"
       },
       {
-        "intent": "mapa",
-        "text": "Onde fica o Predio tecnológico "
+        "intent": "esporte",
+        "text": "Quais esportes são ofertados pelo IF?"
       },
       {
-        "intent": "mapa",
-        "text": "como chego"
+        "intent": "esporte",
+        "text": "que esportes são ofertados no IF ?"
       },
       {
-        "intent": "despedida",
-        "text": "Obrigada pela ajuda"
+        "intent": "esporte",
+        "text": "Quais esportes são ofertados treinos no IF?"
       },
       {
-        "intent": "despedida",
-        "text": "Até logo"
+        "intent": "esporte",
+        "text": "Quais os horários dos treinos ?"
       },
       {
-        "intent": "despedida",
-        "text": "Obrigada, até mais"
+        "intent": "esporte",
+        "text": "quais esportes tem ni instituto?"
       },
       {
-        "intent": "despedida",
-        "text": "Tchau, até mais!"
+        "intent": "esporte",
+        "text": "quais esportes tem no instituto?"
       },
       {
-        "intent": "despedida",
-        "text": "Bye "
+        "intent": "esporte",
+        "text": "quais os esportes?"
       },
       {
-        "intent": "despedida",
-        "text": "Até mais, muito obrigada! "
+        "intent": "esporte",
+        "text": "quais os esportes oferecidos?"
       },
       {
-        "intent": "despedida",
-        "text": "Tchau, obrigadx!"
-      },
-      {
-        "intent": "despedida",
-        "text": "Até mais"
-      },
-      {
-        "intent": "despedida",
-        "text": "A gente se encontra por aí"
-      },
-      {
-        "intent": "despedida",
-        "text": "falous parsa 🤙"
-      },
-      {
-        "intent": "despedida",
-        "text": "falous parsa"
-      },
-      {
-        "intent": "despedida",
-        "text": "Até mais!"
-      },
-      {
-        "intent": "despedida",
-        "text": "Adeus"
-      },
-      {
-        "intent": "despedida",
-        "text": "Até logo"
-      },
-      {
-        "intent": "despedida",
-        "text": "flw"
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "arte marcial",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar uma arte marcial"
       },
       {
         "intent": "artmarc",
@@ -455,90 +516,6 @@
           }
         ],
         "text": "quero treinar jiu jitsu"
-      },
-      {
-        "intent": "voleibol",
-        "entities": [
-          {
-            "start": 14,
-            "end": 22,
-            "value": "voleibol",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar voleibol"
-      },
-      {
-        "intent": "voleibol",
-        "entities": [
-          {
-            "start": 14,
-            "end": 19,
-            "value": "volei",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar volei"
-      },
-      {
-        "intent": "futsal",
-        "entities": [
-          {
-            "start": 14,
-            "end": 20,
-            "value": "futsal",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar futsal"
-      },
-      {
-        "intent": "futsal",
-        "entities": [
-          {
-            "start": 14,
-            "end": 17,
-            "value": "fut",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar fut"
-      },
-      {
-        "intent": "handebol",
-        "entities": [
-          {
-            "start": 14,
-            "end": 22,
-            "value": "handebol",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar handebol"
-      },
-      {
-        "intent": "musculacao",
-        "entities": [
-          {
-            "start": 14,
-            "end": 24,
-            "value": "musculacao",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar musculacao"
-      },
-      {
-        "intent": "musculacao",
-        "entities": [
-          {
-            "start": 14,
-            "end": 19,
-            "value": "muscu",
-            "entity": "modalidade"
-          }
-        ],
-        "text": "quero treinar muscu"
       },
       {
         "intent": "artmarc",
@@ -581,15 +558,21 @@
         "entities": [
           {
             "start": 24,
+            "end": 33,
+            "value": "jiu jitsu",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas tem treino de jiu jitsu"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 24,
             "end": 27,
             "value": "jiu",
             "entity": "modalidade"
-          },
-          {
-            "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
           }
         ],
         "text": "que horas tem treino de jiu"
@@ -602,113 +585,317 @@
             "end": 33,
             "value": "muay thai",
             "entity": "modalidade"
-          },
-          {
-            "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
           }
         ],
         "text": "que horas tem treino de muay thai"
       },
       {
-        "intent": "voleibol",
+        "intent": "artmarc",
         "entities": [
-          {
-            "start": 24,
-            "end": 32,
-            "value": "voleibol",
-            "entity": "modalidade"
-          },
           {
             "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
-          }
-        ],
-        "text": "que horas tem treino de voleibol"
-      },
-      {
-        "intent": "voleibol",
-        "entities": [
-          {
-            "start": 24,
-            "end": 29,
-            "value": "volei",
+            "end": 18,
+            "value": "luta",
             "entity": "modalidade"
-          },
-          {
-            "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
           }
         ],
-        "text": "que horas tem treino de volei"
+        "text": "quero treinar luta"
       },
       {
-        "intent": "handebol",
+        "intent": "artmarc",
         "entities": [
           {
-            "start": 24,
-            "end": 32,
-            "value": "handebol",
+            "start": 0,
+            "end": 9,
+            "value": "jiu jitsu",
             "entity": "modalidade"
-          },
-          {
-            "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
           }
         ],
-        "text": "que horas tem treino de handebol"
+        "text": "jiu jitsu"
       },
       {
-        "intent": "futsal",
+        "intent": "artmarc",
         "entities": [
           {
-            "start": 24,
-            "end": 30,
-            "value": "futsal",
+            "start": 0,
+            "end": 9,
+            "value": "muay thai",
             "entity": "modalidade"
-          },
-          {
-            "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
           }
         ],
-        "text": "que horas tem treino de futsal"
+        "text": "muay thai"
       },
       {
-        "intent": "futsal",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "judo",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "judo"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "luta",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "luta"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais são os horários das artes marciais?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 38,
+            "end": 52,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais são os horários dos treinos das artes marciais"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de treinos de artes marciais?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários das artes marciais?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "E horários dos treinos de artes marciais no IF?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "Artes Marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários das Artes Marciais?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "me diga os Horários de artes marciais disponíveis no IF ?"
+      },
+      {
+        "intent": "artmarc",
         "entities": [
           {
             "start": 24,
+            "end": 38,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários dos treinos de artes marciais no IF"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais os horários de treinos de artes marciais"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 33,
+            "end": 47,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Que horas que é o treinamento de artes marciais ?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "qual horario do treino de artes marciais ?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 13,
             "end": 27,
-            "value": "fut",
+            "value": "Artes Marciais",
             "entity": "modalidade"
-          },
-          {
-            "start": 14,
-            "end": 21,
-            "value": "treino ",
-            "entity": "atividade"
           }
         ],
-        "text": "que horas tem treino de fut"
+        "text": "horário das  Artes Marciais"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Artes Marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Artes Marciais"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "qual horario tem artes marciais no IF?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "jiu jitsu",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais horários tem jiu jitsu no if ?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais os horários de treino de artes marciais ?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 30,
+            "end": 44,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais horários dos treinos de artes marciais no IF ?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas são os treinos de artes marciais?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "Artes Marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Horarios de Treino das Artes Marciais?"
+      },
+      {
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "artes marciais",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horarios de artes marciais"
       },
       {
         "intent": "musculacao",
         "entities": [
           {
-            "start": 33,
+            "start": 21,
             "end": 43,
-            "value": "musculaçao",
+            "value": "academia de musculaçao",
             "entity": "modalidade"
           }
         ],
@@ -724,91 +911,1031 @@
             "entity": "modalidade"
           }
         ],
-        "text": "que horas funciona a academia "
-      },
-      {
-        "intent": "alimentacao",
-        "text": "to com fome "
+        "text": "que horas funciona a academia"
       },
       {
         "intent": "musculacao",
         "entities": [
           {
-            "start": 6,
-            "end": 12,
-            "value": "malhar",
+            "start": 0,
+            "end": 8,
+            "value": "academia",
             "entity": "modalidade"
           }
         ],
-        "text": "quero malhar"
+        "text": "academia"
       },
       {
         "intent": "musculacao",
         "entities": [
           {
-            "start": 16,
-            "end": 22,
-            "value": "malhar",
+            "start": 0,
+            "end": 10,
+            "value": "musculaçao",
             "entity": "modalidade"
           }
         ],
-        "text": "que horas posso malhar"
+        "text": "musculaçao"
       },
       {
         "intent": "musculacao",
         "entities": [
           {
-            "start": 8,
-            "end": 15,
-            "value": "definir",
+            "start": 14,
+            "end": 24,
+            "value": "musculacao",
             "entity": "modalidade"
           }
         ],
-        "text": "preciso definir"
+        "text": "quero treinar musculacao"
       },
       {
-        "intent": "ambulatorio",
-        "text": "gostaria de saber sobre o ambulatório"
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "muscu",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar muscu"
       },
       {
-        "intent": "alimentacao",
-        "text": "quais os horários de refeições no refeitório"
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "musculação",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horário da musculação?"
       },
       {
-        "intent": "artmarc",
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Cris, quais horários de funcionamento da academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de funcionamento da academia?"
+      },
+      {
+        "intent": "musculacao",
         "entities": [
           {
             "start": 33,
-            "end": 48,
-            "value": "artes marciais ",
+            "end": 41,
+            "value": "academia",
             "entity": "modalidade"
           }
         ],
-        "text": "Quais os horários dos treinos de artes marciais no IF"
+        "text": "qual horario de funcionamento da academia?"
       },
       {
-        "intent": "artmarc",
+        "intent": "musculacao",
         "entities": [
           {
-            "start": 27,
-            "end": 41,
-            "value": "artes marciais",
+            "start": 38,
+            "end": 46,
+            "value": "academia",
             "entity": "modalidade"
           }
         ],
-        "text": "os horários dos treinos de artes marciais"
+        "text": "Quais os horários de funcionamento da academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "e o horário da academia?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "esquece a academia"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de funcionamento da academia no IF?"
+      },
+      {
+        "intent": "musculacao",
+        "text": "horário dos treinos de musculação](modalidade)?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "academia, horário?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais os horários de funcionamento da academia no IF?"
       },
       {
         "intent": "musculacao",
         "entities": [
           {
             "start": 32,
-            "end": 41,
-            "value": "academia ",
+            "end": 42,
+            "value": "musculação",
             "entity": "modalidade"
           }
         ],
-        "text": "os horários de funcionamento da academia no IF"
+        "text": "Quais os horários de treinos de musculação"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "musculação",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Que horas é a musculação?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "qual horario da academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Horário de funcionamento da academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "academia do if"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Horario da academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de funcionamento da academia no IF?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "academia horario"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horario de funcionamento da academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "E os  horários de funcionamento da academia no IF?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de funcionamento da academia?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que hora funciona a academia ?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Horários da academia?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "o campus tem academia?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "musculação",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "como faço musculação?"
+      },
+      {
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "musculação",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "o campus oferece musculação?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais os horários de treinos de futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais são os horários de treinamento do futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários de treino de futsal?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de  futsal ?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais horários de treino de futsal ?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Treino de futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais horarios de treino de futsal ?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "treino de futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários de futsal?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horarios de treino de futsal?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horário do futsal?"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas tem treino de futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "fut",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas tem treino de fut"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar futsal"
+      },
+      {
+        "intent": "futsal",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "fut",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar fut"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar voleibol"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar volei"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas tem treino de voleibol"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas tem treino de volei"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horário do voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "volei"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Voleibol"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais os horários de treinos de voleibol"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 43,
+            "end": 51,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Agora preciso saber que horas posso trinar voleibol ?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Qual horário do treinamento de voleibol ?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de treino de voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de treino de volei?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Treino de voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "vôlei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "vôlei"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "é disponível volei  para os alunos?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horário do voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários de treino de voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais horários de treino de voleibol"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários de treino de voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horarios de volei?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários de treino de volei?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horarios de voleibol?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horários de treino de volei?"
+      },
+      {
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais horarios de treino de voleibol ?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "handebol"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quero treinar handebol"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "treino de handebol ?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "handboll",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "como é o handboll"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Horarios de handebol ?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "handbol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "horário do handbol?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "treino de handebol?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horarios de handebol?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "que horas tem treino de handebol"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários de treino de handebol?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "handeboll",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários dos treinos de handeboll"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários dos treinos de handebol"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "quais os horários dos treinos de handebol?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais horários de treino de handebol ?"
+      },
+      {
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ],
+        "text": "Quais os horários de treino de handebol?"
       },
       {
         "intent": "handebol",
@@ -820,35 +1947,295 @@
             "entity": "modalidade"
           }
         ],
-        "text": "os horários de treino de handebol"
+        "text": "os horários de treino de handebol?"
       },
       {
-        "intent": "voleibol",
+        "intent": "handebol",
         "entities": [
           {
-            "start": 25,
-            "end": 33,
-            "value": "voleibol",
+            "start": 31,
+            "end": 39,
+            "value": "handebol",
             "entity": "modalidade"
           }
         ],
-        "text": "os horários de treino de voleibol"
+        "text": "quais os horários de treino de handebol"
       },
       {
-        "intent": "futsal",
+        "intent": "handebol",
         "entities": [
           {
-            "start": 25,
-            "end": 31,
-            "value": "futsal",
+            "start": 31,
+            "end": 39,
+            "value": "handebol",
             "entity": "modalidade"
           }
         ],
-        "text": "os horários de treino de futsal"
+        "text": "quais os horários de treino de handebol?"
       },
       {
         "intent": "mapa",
-        "text": "vc tem o mapa da instituição"
+        "text": "Onde fica localizado o instituto federal"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde é o restaurante universitário?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o refeitório?"
+      },
+      {
+        "intent": "mapa",
+        "text": "mapa da instituição;"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde é o restaurante universitário?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o prédio H"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o prédio da Administração"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica a biblioteca"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde q fica"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde vou pra saber mais sobre o lugar?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Como chego até a"
+      },
+      {
+        "intent": "mapa",
+        "text": "O campus tem algum mapa?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica a biblioteca?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Estou perdida pode me ajudar"
+      },
+      {
+        "intent": "mapa",
+        "text": "existe um mapa daqui do campus?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica a secretária?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o Predio tecnológico"
+      },
+      {
+        "intent": "mapa",
+        "text": "como chego"
+      },
+      {
+        "intent": "mapa",
+        "text": "onde fica o ambulatório ?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Preciso de um mapa"
+      },
+      {
+        "intent": "mapa",
+        "text": "mapa da instituição?"
+      },
+      {
+        "intent": "mapa",
+        "text": "poderia me enviar o mapa da instituição?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Estou perdido"
+      },
+      {
+        "intent": "mapa",
+        "text": "mapa do IF?"
+      },
+      {
+        "intent": "mapa",
+        "text": "o mapa da instituição"
+      },
+      {
+        "intent": "mapa",
+        "text": "mapa da instituição"
+      },
+      {
+        "intent": "mapa",
+        "text": "como chego na academia?"
+      },
+      {
+        "intent": "mapa",
+        "text": "mapa do if"
+      },
+      {
+        "intent": "mapa",
+        "text": "me mande o mapa da instituição"
+      },
+      {
+        "intent": "mapa",
+        "text": "onde é o ambulatório ?"
+      },
+      {
+        "intent": "mapa",
+        "text": "onde é o ambulatorio?"
+      },
+      {
+        "intent": "mapa",
+        "text": "horario do ambulatorio?"
+      },
+      {
+        "intent": "mapa",
+        "text": "poderia me enviar o mapa do campus?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Como encontro o Refeitório da Instituição?"
+      },
+      {
+        "intent": "mapa",
+        "text": "onde fica o ambulatório ?"
+      },
+      {
+        "intent": "mapa",
+        "text": "me passa o mapa do IF ?"
+      },
+      {
+        "intent": "mapa",
+        "text": "onde fica o ambulatório?"
+      },
+      {
+        "intent": "mapa",
+        "text": "como faço para chegar no refeitório?"
+      },
+      {
+        "intent": "mapa",
+        "text": "preciso do mapa da instituição"
+      },
+      {
+        "intent": "mapa",
+        "text": "me mande o mapa da instituição ?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Você pode me dizer onde fica o ambulatorio"
+      },
+      {
+        "intent": "despedida",
+        "text": "obrigado"
+      },
+      {
+        "intent": "despedida",
+        "text": "Obrigada"
+      },
+      {
+        "intent": "despedida",
+        "text": "obg Cris"
+      },
+      {
+        "intent": "despedida",
+        "text": "obg"
+      },
+      {
+        "intent": "despedida",
+        "text": "obrigado pela ajuda"
+      },
+      {
+        "intent": "despedida",
+        "text": "Tchau"
+      },
+      {
+        "intent": "despedida",
+        "text": "fui"
+      },
+      {
+        "intent": "despedida",
+        "text": "xau"
+      },
+      {
+        "intent": "despedida",
+        "text": "teh"
+      },
+      {
+        "intent": "despedida",
+        "text": "como chego"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até logo"
+      },
+      {
+        "intent": "despedida",
+        "text": "Obrigada, até mais"
+      },
+      {
+        "intent": "despedida",
+        "text": "Tchau, até mais!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Bye"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até mais, muito obrigada!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Tchau, obrigadx!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até mais"
+      },
+      {
+        "intent": "despedida",
+        "text": "A gente se encontra por aí"
+      },
+      {
+        "intent": "despedida",
+        "text": "falous parsa"
+      },
+      {
+        "intent": "despedida",
+        "text": "falous parsa 🤙"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até mais!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Adeus"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até logo"
+      },
+      {
+        "intent": "despedida",
+        "text": "flw"
       }
     ],
     "regex_features": [],
