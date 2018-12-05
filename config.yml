@@ -1,7 +1,7 @@
 policies:
   - name: KerasPolicy
     epochs: 300
-    max_history: 5
+    max_history: 2
   - name: MemoizationPolicy
     max_history: 5
   #- name: kwargs

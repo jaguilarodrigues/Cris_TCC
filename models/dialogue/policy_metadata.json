@@ -6,25 +6,19 @@
     "utter_mapa": {
       "slots": []
     },
+    "utter_musculacao": {
+      "slots": []
+    },
     "action_restart": {
-      "slots": []
-    },
-    "utter_futsal": {
-      "slots": []
-    },
-    "utter_handebol": {
-      "slots": []
-    },
-    "utter_saudacao": {
       "slots": []
     },
     "utter_alimentacao": {
       "slots": []
     },
-    "utter_artmarc": {
+    "utter_futsal": {
       "slots": []
     },
-    "utter_voleibol": {
+    "utter_saudacao": {
       "slots": []
     },
     "utter_ambulatorio": {
@@ -32,12 +26,15 @@
     },
     "utter_esporte": {
       "slots": []
+    },
+    "utter_artmarc": {
+      "slots": []
     }
   },
   "rasa_core": "0.12.1",
   "python": "3.6.7",
   "max_histories": [
-    5,
+    2,
     5,
     null
   ],
@@ -47,5 +44,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20181204-181847"
+  "trained_at": "20181204-232308"
 }

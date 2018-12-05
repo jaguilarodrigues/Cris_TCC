@@ -49,10 +49,16 @@
     - utter_despedida
     - action_restart
 
-## Story jiu alo
-
-* artmarc{"modalidade": "jiu jitsu"}
+## Story jiu
+* saudacao
+    - utter_saudacao
+* esporte
+    - utter_esporte
+* artmarc{"atividade": "treino", "modalidade": "jiu jitsu"}
     - utter_artmarc
+* despedida
+    - utter_despedida
+    - action_restart
 
 
 ## Story Muay Thai
@@ -66,10 +72,16 @@
     - utter_despedida
     - action_restart
 
-## Story Muay Thai alo
-* artmarc{ "modalidade": "Muay Thai"}
+## Story Muay Thai Horarios
+* saudacao
+    - utter_saudacao
+* esporte
+    - utter_esporte
+* artmarc{"atividade": "treino", "modalidade": "Muay Thai"}
     - utter_artmarc
-
+* despedida
+    - utter_despedida
+    - action_restart
 
 ## Story Judo
 * saudacao
@@ -82,9 +94,16 @@
     - utter_despedida
     - action_restart
 
-## Story Judo alo
-* artmarc{"modalidade": "Judo"}
+## Story Judo Horarios
+* saudacao
+    - utter_saudacao
+* esporte
+    - utter_esporte
+* artmarc{"atividade": "treino", "modalidade": "Judo"}
     - utter_artmarc                        
+* despedida
+    - utter_despedida
+    - action_restart
 
 
 ## Story Voleibol
@@ -98,9 +117,16 @@
     - utter_despedida
     - action_restart
 
-## Story Voleibol alo
-* voleibol{ "modalidade": "voleibol"}
+## Story Voleibol Horarios
+* saudacao
+    - utter_saudacao
+* esporte
+    - utter_esporte
+* voleibol{"atividade": "treino", "modalidade": "voleibol"}
     - utter_voleibol                       
+* despedida
+    - utter_despedida
+    - action_restart
 
 
 ## Story handebol
@@ -114,9 +140,16 @@
     - utter_despedida
     - action_restart
 
-## Story handebol alo
-* voleibol{"modalidade": "handebol"}
+## Story handebol Horarios
+* saudacao
+    - utter_saudacao
+* esporte
+    - utter_esporte
+* voleibol{"atividade": "treino", "modalidade": "handebol"}
     - utter_handebol                       
+* despedida
+    - utter_despedida
+    - action_restart
 
 ## Story futsal
 * saudacao
@@ -129,9 +162,16 @@
     - utter_despedida
     - action_restart
 
-## Story futsal alo
-* voleibol{ "modalidade": "futsal"}
+## Story futsal Horarios
+* saudacao
+    - utter_saudacao
+* esporte
+    - utter_esporte
+* voleibol{"atividade": "treino", "modalidade": "futsal"}
     - utter_futsal                       
+* despedida
+    - utter_despedida
+    - action_restart
 
 ## Story ambulatorio Horarios
 * saudacao
@@ -174,3 +214,115 @@
     - utter_futsal
 * mapa
     - utter_mapa
+
+## Generated Story 9046233352440172629
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* handebol{"modalidade": "handebol"}
+    - utter_handebol
+* musculacao{"modalidade": "muscula\u00e7\u00e3o"}
+    - utter_musculacao
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* handebol{"modalidade": "handebol"}
+    - utter_handebol
+* voleibol{"modalidade": "voleibol"}
+    - utter_voleibol
+* futsal{"modalidade": "futsal"}
+    - utter_futsal
+* mapa
+    - utter_mapa
+* mapa
+    - utter_mapa
+* mapa
+    - utter_mapa
+
+## Generated Story -8965649116103270658
+* futsal{"modalidade": "futsal"}
+    - utter_futsal
+* futsal{"modalidade": "voleibo"}
+    - utter_voleibol
+* musculacao{"modalidade": "muscula\u00e7\u00e3o"}
+    - utter_musculacao
+* musculacao{"modalidade": "muscula\u00e7\u00e3o"}
+    - utter_musculacao
+* musculacao{"modalidade": "muscula\u00e7\u00e3o"}
+    - utter_musculacao
+
+## Generated Story -6251953728128317909
+* alimentacao
+    - utter_alimentacao
+* alimentacao
+    - utter_alimentacao
+* alimentacao
+    - utter_alimentacao
+* alimentacao
+    - utter_alimentacao
+* esporte
+    - utter_esporte
+* futsal{"modalidade": "futsal"}
+    - utter_futsal
+* voleibol{"modalidade": "voleibol"}
+    - utter_voleibol
+* mapa
+    - utter_mapa
+* mapa
+    - utter_mapa
+* voleibol{"modalidade": "voleibol"}
+    - utter_voleibol
+* musculacao{"modalidade": "muscula\u00e7\u00e3o"}
+    - utter_musculacao
+* artmarc{"modalidade": "artes marciais"}
+    - utter_artmarc
+
+## Generated Story 8720124163962545398
+* voleibol{"modalidade": "volei"}
+    - utter_voleibol
+* esporte
+    - utter_esporte
+* artmarc{"modalidade": "artes marciais"}
+    - utter_artmarc
+* artmarc{"modalidade": "jiu jitsu"}
+    - utter_artmarc
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* musculacao{"modalidade": "academia"}
+    - utter_musculacao
+* voleibol{"modalidade": "voleibol"}
+    - utter_voleibol
+* handebol{"modalidade": "handebol"}
+    - utter_handebol
+* mapa
+    - utter_mapa
+* mapa
+    - utter_mapa
+* mapa
+   - utter_mapa
+
+## Generated Story -6093935463169412218
+* saudacao
+   - utter_saudacao
+* esporte
+   - utter_esporte
+* musculacao{"modalidade": "academia"}
+   - utter_musculacao
+* handebol{"modalidade": "handeboll"}
+   - utter_handebol
+* futsal{"modalidade": "futsal"}
+   - utter_futsal
+* mapa
+   - utter_mapa
+
+## Generated Story 8444952432460050223
+* voleibol{"modalidade": "voleibol"}
+   - utter_voleibol
+* futsal{"modalidade": "futsal"}
+   - utter_futsal
+* futsal{"modalidade": "futsal"}
+   - utter_futsal
