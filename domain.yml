@@ -1,38 +1,33 @@
 %YAML 1.1
 ---
 actions:
-- utter_saudacao
-- utter_artmarc
 - utter_mapa
-- utter_futsal
 - utter_despedida
-- action_listen
-- utter_musculacao
-- utter_voleibol
-- utter_default
-- utter_alimentacao
-- utter_ambulatorio
 - utter_esporte
+- utter_artmarc
+- utter_default
+- utter_ambulatorio
+- utter_musculacao
 - utter_handebol
-config:
-  store_entities_as_slots: true
+- utter_futsal
+- utter_saudacao
+- utter_alimentacao
+- utter_voleibol
 entities:
 - modalidade
-forms: []
 intents:
-- futsal
+- musculacao
+- mapa
 - voleibol
+- artmarc
+- futsal
 - saudacao
 - ambulatorio
+- handebol
 - alimentacao
 - esporte
-- artmarc
-- musculacao
-- handebol
-- mapa
 - despedida
 - default
-slots: {}
 templates:
   utter_alimentacao:
   - image: https://i.imgur.com/NtS8Ii4.jpg

@@ -12964,3 +12964,1782 @@ There is no memorised next action
 Predicted next action using policy_0_KerasPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1907810715922771'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'qual o horário dos treinos de futsal ?' with intent '{'name': 'ambulatorio', 'confidence': 0.28769233804531613}' and entities '[{'start': 30, 'end': 36, 'value': 'futsal', 'entity': 'modalidade', 'confidence': 0.9841891633787586, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 30 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'entity_modalidade': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.92.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1907810715922771'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'qual o mapa do IF ?' with intent '{'name': 'mapa', 'confidence': 0.39144292166282674}' and entities '[]'
+Logged UserUtterance - tracker now has 34 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_mapa' with prob 0.99.
+Sending message: Mapa ilustrado do Campus Muzambinho:
+Action 'utter_mapa' ended with events '[]'
+Bot utterance 'BotUttered(text: Mapa ilustrado do Campus Muzambinho:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/QN3Ntib.jpg"
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1907810715922771'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'TCHAU.. boa noite' with intent '{'name': 'despedida', 'confidence': 0.17086065948533435}' and entities '[]'
+Logged UserUtterance - tracker now has 38 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}, {'intent_despedida': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_despedida' with prob 0.99.
+Sending message: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/
+Action 'utter_despedida' ended with events '[]'
+Bot utterance 'BotUttered(text: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}, {'intent_despedida': 1.0, 'prev_action_listen': 1.0}, {'intent_despedida': 1.0, 'prev_utter_despedida': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.97.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Creating a new tracker for id '1955521841234934'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Oi Cris?' with intent '{'name': 'saudacao', 'confidence': 0.24954144771939007}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_saudacao': 1.0}]
+There is a memorised next action '4'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_saudacao' with prob 1.00.
+Sending message: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
+Action 'utter_saudacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_saudacao': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Gostaria do mapa do Instituto, pode me ajudar?' with intent '{'name': 'mapa', 'confidence': 0.29648198081627813}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_saudacao': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}]
+There is a memorised next action '13'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_mapa' with prob 1.00.
+Sending message: Mapa ilustrado do Campus Muzambinho:
+Action 'utter_mapa' ended with events '[]'
+Bot utterance 'BotUttered(text: Mapa ilustrado do Campus Muzambinho:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/QN3Ntib.jpg"
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_saudacao': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Gostaria de praticar algum esportes, tem os horários dos treinos?' with intent '{'name': 'esporte', 'confidence': 0.5590697445029137}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_saudacao': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_esporte' with prob 1.00.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'E quais são os horários do treino de futsal?' with intent '{'name': 'futsal', 'confidence': 0.2575326335439509}' and entities '[{'start': 37, 'end': 43, 'value': 'futsal', 'entity': 'modalidade', 'confidence': 0.9841765103347118, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 14 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_futsal' with prob 0.98.
+Sending message: Horarios de Treino Futsal:
+Action 'utter_futsal' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Futsal:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/SpYRXiM.jpg"
+})'
+Current tracker state [{'prev_utter_mapa': 1.0, 'intent_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_futsal': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Interessante! Gostei, e das artes marciais?' with intent '{'name': 'esporte', 'confidence': 0.20924007257563015}' and entities '[{'start': 28, 'end': 42, 'value': 'artes marciais', 'entity': 'modalidade', 'confidence': 0.9726305941459791, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_futsal': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'entity_modalidade': 1.0, 'intent_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_esporte' with prob 0.77.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_futsal': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'entity_modalidade': 1.0, 'intent_esporte': 1.0}, {'entity_modalidade': 1.0, 'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Horários das artes marciais?' with intent '{'name': 'artmarc', 'confidence': 0.9641468762135029}' and entities '[{'start': 13, 'end': 27, 'value': 'artes marciais', 'entity': 'modalidade', 'confidence': 0.9726337276593089, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_futsal': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'entity_modalidade': 1.0, 'intent_esporte': 1.0}, {'entity_modalidade': 1.0, 'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.95.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{'prev_utter_futsal': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'entity_modalidade': 1.0, 'intent_esporte': 1.0}, {'entity_modalidade': 1.0, 'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0, 'entity_modalidade': 1.0}, {'intent_artmarc': 1.0, 'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'O que me diz sobre o ambulatório Cris?' with intent '{'name': 'ambulatorio', 'confidence': 0.449646398480369}' and entities '[]'
+Logged UserUtterance - tracker now has 26 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'entity_modalidade': 1.0, 'intent_esporte': 1.0}, {'entity_modalidade': 1.0, 'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0, 'entity_modalidade': 1.0}, {'intent_artmarc': 1.0, 'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 1.00.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0, 'entity_modalidade': 1.0}, {'intent_artmarc': 1.0, 'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Obrigada Cris' with intent '{'name': 'despedida', 'confidence': 0.3863107725842278}' and entities '[]'
+Logged UserUtterance - tracker now has 30 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_artmarc': 1.0, 'entity_modalidade': 1.0}, {'intent_artmarc': 1.0, 'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}, {'intent_despedida': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_despedida' with prob 1.00.
+Sending message: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/
+Action 'utter_despedida' ended with events '[]'
+Bot utterance 'BotUttered(text: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_artmarc': 1.0, 'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}, {'intent_despedida': 1.0, 'prev_action_listen': 1.0}, {'intent_despedida': 1.0, 'prev_utter_despedida': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.97.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Estou com mais uma dúvida, e sobre a academia, quais os horários que fica aberta?' with intent '{'name': 'ambulatorio', 'confidence': 0.2689213223001809}' and entities '[{'start': 37, 'end': 45, 'value': 'academia', 'entity': 'modalidade', 'confidence': 0.718130964883961, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 36 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.58.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'E o funcionamento da academia?' with intent '{'name': 'musculacao', 'confidence': 0.7056348449549106}' and entities '[{'start': 21, 'end': 29, 'value': 'academia', 'entity': 'modalidade', 'confidence': 0.986882882899769, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 40 events
+Current slot values: 
+
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_musculacao' with prob 1.00.
+Sending message: Horarios de Treino Musculação:
+Action 'utter_musculacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Musculação:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/z0ZlCOf.jpg"
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Booooa Cris!' with intent '{'name': 'artmarc', 'confidence': 0.2825129323217384}' and entities '[]'
+Logged UserUtterance - tracker now has 44 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.76.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'intent_artmarc': 1.0, 'prev_utter_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Me deu uma fome, você tem disponível os horários de refeições no refeitório?' with intent '{'name': 'alimentacao', 'confidence': 0.34359798592966295}' and entities '[]'
+Logged UserUtterance - tracker now has 48 events
+Current slot values: 
+
+Current tracker state [{'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'intent_artmarc': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.99.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'intent_artmarc': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Me deu uma fome, você tem disponível os horários de refeições no refeitório?' with intent '{'name': 'alimentacao', 'confidence': 0.34359798592966295}' and entities '[]'
+Logged UserUtterance - tracker now has 52 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'intent_artmarc': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.99.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'intent_artmarc': 1.0, 'prev_utter_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Me deu uma fome, você tem disponível os horários de refeições no refeitório?' with intent '{'name': 'alimentacao', 'confidence': 0.34359798592966295}' and entities '[]'
+Logged UserUtterance - tracker now has 56 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}]
+There is a memorised next action '6'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_alimentacao' with prob 1.00.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Logged UserUtterance - tracker now has 60 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 1.00.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Obrigada!' with intent '{'name': 'alimentacao', 'confidence': 0.4310181320648373}' and entities '[]'
+Logged UserUtterance - tracker now has 64 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.99.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'prev_utter_alimentacao': 1.0, 'intent_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '1955521841234934'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Obrigada Cris' with intent '{'name': 'despedida', 'confidence': 0.3863107725842278}' and entities '[]'
+Logged UserUtterance - tracker now has 68 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'intent_despedida': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_despedida' with prob 1.00.
+Sending message: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/
+Action 'utter_despedida' ended with events '[]'
+Bot utterance 'BotUttered(text: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_ambulatorio': 1.0, 'intent_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_alimentacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'intent_despedida': 1.0, 'prev_action_listen': 1.0}, {'intent_despedida': 1.0, 'prev_utter_despedida': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.97.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-pt_core_news_sm'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+fb_webhook.health                                  GET, OPTIONS, HEAD             /webhooks/facebook/
+fb_webhook.webhook                                 OPTIONS, POST                  /webhooks/facebook/webhook
+Rasa Core server is up and running on http://localhost:5000
+Creating a new tracker for id '2254351857975459'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'ow' with intent '{'name': 'saudacao', 'confidence': 0.7263689335379117}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '4'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_saudacao' with prob 1.00.
+Sending message: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
+Action 'utter_saudacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Creating a new tracker for id '2068126199931122'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'quis Horarios do treino de Futsal ?' with intent '{'name': 'ambulatorio', 'confidence': 0.23845556324821301}' and entities '[{'start': 27, 'end': 33, 'value': 'futsal', 'entity': 'modalidade', 'confidence': 0.9841765103512886, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.58.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [None, None, {}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Quais Horarios de atendimento do Ambulatório ?' with intent '{'name': 'ambulatorio', 'confidence': 0.18042564122920932}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [None, {}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.99.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Quais Horários de treino de artes Marciais ?' with intent '{'name': 'artmarc', 'confidence': 0.7171213372272496}' and entities '[{'start': 28, 'end': 42, 'value': 'artes marciais', 'entity': 'modalidade', 'confidence': 0.991282705367373, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.73.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'quero um Mapa do IF' with intent '{'name': 'mapa', 'confidence': 0.24768501446867436}' and entities '[]'
+Logged UserUtterance - tracker now has 14 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_mapa' with prob 0.99.
+Sending message: Mapa ilustrado do Campus Muzambinho:
+Action 'utter_mapa' ended with events '[]'
+Bot utterance 'BotUttered(text: Mapa ilustrado do Campus Muzambinho:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/QN3Ntib.jpg"
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'quais horarios de treino de voleibol ?' with intent '{'name': 'voleibol', 'confidence': 0.5615801308495297}' and entities '[{'start': 28, 'end': 36, 'value': 'voleibol', 'entity': 'modalidade', 'confidence': 0.992857958299729, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+
+Current tracker state [{'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_voleibol' with prob 0.92.
+Sending message: Horarios de Treino Voleibol:
+Action 'utter_voleibol' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Voleibol:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/JqEY6Ea.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_action_listen': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_utter_voleibol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'quais horarios de treino de handeboll ?' with intent '{'name': 'handebol', 'confidence': 0.2738849290713657}' and entities '[{'start': 28, 'end': 37, 'value': 'handeboll', 'entity': 'modalidade', 'confidence': 0.7582613799473702, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_action_listen': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_utter_voleibol': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_handebol' with prob 0.90.
+Sending message: Horarios de Treino Handebol:
+Action 'utter_handebol' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Handebol:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/AoM4zFd.jpg"
+})'
+Current tracker state [{'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_action_listen': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_utter_voleibol': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Quais Horarios da Academia ?' with intent '{'name': 'musculacao', 'confidence': 0.5707873995238126}' and entities '[{'start': 18, 'end': 26, 'value': 'academia', 'entity': 'modalidade', 'confidence': 0.9868819936513816, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 26 events
+Current slot values: 
+
+Current tracker state [{'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_action_listen': 1.0}, {'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_utter_voleibol': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'entity_modalidade': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_musculacao' with prob 0.99.
+Sending message: Horarios de Treino Musculação:
+Action 'utter_musculacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Musculação:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/z0ZlCOf.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'intent_voleibol': 1.0, 'prev_utter_voleibol': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'entity_modalidade': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'quais esportes são ofertados no IF ?' with intent '{'name': 'esporte', 'confidence': 0.5994702845618103}' and entities '[]'
+Logged UserUtterance - tracker now has 30 events
+Current slot values: 
+
+Current tracker state [{'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'entity_modalidade': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_esporte' with prob 0.99.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'entity_modalidade': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.98.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2068126199931122'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'quais Horários de refeição do IF ?' with intent '{'name': 'musculacao', 'confidence': 0.2541140826028226}' and entities '[]'
+Logged UserUtterance - tracker now has 34 events
+Current slot values: 
+
+Current tracker state [{'intent_musculacao': 1.0, 'entity_modalidade': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_musculacao' with prob 0.97.
+Sending message: Horarios de Treino Musculação:
+Action 'utter_musculacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Musculação:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/z0ZlCOf.jpg"
+})'
+Current tracker state [{'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Creating a new tracker for id '2357958354232763'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'eai minha consagrada' with intent '{'name': 'despedida', 'confidence': 0.44900464200846013}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_despedida': 1.0}]
+There is a memorised next action '14'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_despedida' with prob 1.00.
+Sending message: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/
+Action 'utter_despedida' ended with events '[]'
+Bot utterance 'BotUttered(text: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_despedida': 1.0}, {'prev_utter_despedida': 1.0, 'intent_despedida': 1.0}]
+There is a memorised next action '1'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_restart' with prob 1.00.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'como faço para chegar na academia?' with intent '{'name': 'mapa', 'confidence': 0.38928933813847494}' and entities '[{'start': 25, 'end': 33, 'value': 'academia', 'entity': 'modalidade', 'confidence': 0.538974413334283, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 8 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_mapa' with prob 0.59.
+Sending message: Mapa ilustrado do Campus Muzambinho:
+Action 'utter_mapa' ended with events '[]'
+Bot utterance 'BotUttered(text: Mapa ilustrado do Campus Muzambinho:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/QN3Ntib.jpg"
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0, 'entity_modalidade': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'e quais os horarios dela?' with intent '{'name': 'ambulatorio', 'confidence': 0.2315780984123178}' and entities '[]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0, 'entity_modalidade': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.99.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0, 'entity_modalidade': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horarios da academia' with intent '{'name': 'musculacao', 'confidence': 0.7308017099891478}' and entities '[{'start': 12, 'end': 20, 'value': 'academia', 'entity': 'modalidade', 'confidence': 0.9954095530670749, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 16 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_mapa': 1.0, 'entity_modalidade': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_musculacao' with prob 0.99.
+Sending message: Horarios de Treino Musculação:
+Action 'utter_musculacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Musculação:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/z0ZlCOf.jpg"
+})'
+Current tracker state [{'intent_mapa': 1.0, 'prev_utter_mapa': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'e quais os horarios do volei?' with intent '{'name': 'esporte', 'confidence': 0.21568188596586432}' and entities '[{'start': 23, 'end': 28, 'value': 'volei', 'entity': 'modalidade', 'confidence': 0.9735454162445323, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 20 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_esporte' with prob 0.85.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0, 'entity_modalidade': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horarios voleibol' with intent '{'name': 'voleibol', 'confidence': 0.7050567750772261}' and entities '[{'start': 9, 'end': 17, 'value': 'voleibol', 'entity': 'modalidade', 'confidence': 0.9772809975559446, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 24 events
+Current slot values: 
+
+Current tracker state [{'intent_musculacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0, 'entity_modalidade': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_voleibol' with prob 0.40.
+Sending message: Horarios de Treino Voleibol:
+Action 'utter_voleibol' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Voleibol:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/JqEY6Ea.jpg"
+})'
+Current tracker state [{'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0, 'entity_modalidade': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_voleibol': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'e de handebol?' with intent '{'name': 'saudacao', 'confidence': 0.34288156453892}' and entities '[{'start': 5, 'end': 13, 'value': 'handebol', 'entity': 'modalidade', 'confidence': 0.9610859694408053, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 28 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_esporte': 1.0, 'entity_modalidade': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_voleibol': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_saudacao' with prob 0.88.
+Sending message: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
+Action 'utter_saudacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_esporte': 1.0, 'prev_utter_esporte': 1.0, 'entity_modalidade': 1.0}, {'prev_action_listen': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_voleibol': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horarios de handebol?' with intent '{'name': 'handebol', 'confidence': 0.7408502777323941}' and entities '[{'start': 12, 'end': 20, 'value': 'handebol', 'entity': 'modalidade', 'confidence': 0.961070096301852, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 32 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_voleibol': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0, 'entity_modalidade': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_handebol' with prob 0.65.
+Sending message: Horarios de Treino Handebol:
+Action 'utter_handebol' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Handebol:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/AoM4zFd.jpg"
+})'
+Current tracker state [{'prev_utter_voleibol': 1.0, 'intent_voleibol': 1.0, 'entity_modalidade': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0, 'entity_modalidade': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'futsal' with intent '{'name': 'futsal', 'confidence': 0.6495259258185979}' and entities '[{'start': 0, 'end': 6, 'value': 'futsal', 'entity': 'modalidade', 'confidence': 0.9889531692417322, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 36 events
+Current slot values: 
+
+Current tracker state [{'intent_saudacao': 1.0, 'prev_action_listen': 1.0, 'entity_modalidade': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0, 'entity_modalidade': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_futsal' with prob 0.93.
+Sending message: Horarios de Treino Futsal:
+Action 'utter_futsal' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Futsal:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/SpYRXiM.jpg"
+})'
+Current tracker state [{'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0, 'entity_modalidade': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'intent_futsal': 1.0, 'entity_modalidade': 1.0, 'prev_utter_futsal': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Creating a new tracker for id '2400007783362167'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'onde fica o ambulatório ?' with intent '{'name': 'mapa', 'confidence': 0.6613431047290657}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}]
+There is a memorised next action '13'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_mapa' with prob 1.00.
+Sending message: Mapa ilustrado do Campus Muzambinho:
+Action 'utter_mapa' ended with events '[]'
+Bot utterance 'BotUttered(text: Mapa ilustrado do Campus Muzambinho:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/QN3Ntib.jpg"
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'artes marciais' with intent '{'name': 'artmarc', 'confidence': 0.876379342087729}' and entities '[{'start': 0, 'end': 14, 'value': 'artes marciais', 'entity': 'modalidade', 'confidence': 0.993630167010711, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 40 events
+Current slot values: 
+
+Current tracker state [{'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'intent_futsal': 1.0, 'entity_modalidade': 1.0, 'prev_utter_futsal': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.70.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'intent_futsal': 1.0, 'entity_modalidade': 1.0, 'prev_utter_futsal': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horario refeitório ?' with intent '{'name': 'mapa', 'confidence': 0.295770510385633}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}]
+There is a memorised next action '13'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_mapa' with prob 1.00.
+Sending message: Mapa ilustrado do Campus Muzambinho:
+Action 'utter_mapa' ended with events '[]'
+Bot utterance 'BotUttered(text: Mapa ilustrado do Campus Muzambinho:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/QN3Ntib.jpg"
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horário de refeições ?' with intent '{'name': 'ambulatorio', 'confidence': 0.21783801691355437}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is a memorised next action '5'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_ambulatorio' with prob 1.00.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'and about ambulatorio?' with intent '{'name': 'artmarc', 'confidence': 0.30458718068002283}' and entities '[]'
+Logged UserUtterance - tracker now has 44 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_futsal': 1.0, 'entity_modalidade': 1.0}, {'intent_futsal': 1.0, 'entity_modalidade': 1.0, 'prev_utter_futsal': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.74.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{'intent_futsal': 1.0, 'entity_modalidade': 1.0, 'prev_utter_futsal': 1.0}, {'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horário de funcionamento do refeitório' with intent '{'name': 'ambulatorio', 'confidence': 0.26183706875651863}' and entities '[]'
+Logged UserUtterance - tracker now has 14 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_mapa': 1.0}, {'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.99.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'intent_mapa': 1.0, 'prev_utter_mapa': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'refeitório' with intent '{'name': 'alimentacao', 'confidence': 0.7427359701002653}' and entities '[]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.99.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'esportes if' with intent '{'name': 'esporte', 'confidence': 0.4413500540690183}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_esporte' with prob 1.00.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'esportes IF?' with intent '{'name': 'esporte', 'confidence': 0.42788398889994445}' and entities '[]'
+Logged UserUtterance - tracker now has 26 events
+Current slot values: 
+
+Current tracker state [{'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_esporte' with prob 0.96.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.98.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horarios treinos' with intent '{'name': 'handebol', 'confidence': 0.4122376053999424}' and entities '[]'
+Logged UserUtterance - tracker now has 30 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_handebol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_handebol' with prob 0.72.
+Sending message: Horarios de Treino Handebol:
+Action 'utter_handebol' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Handebol:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/AoM4zFd.jpg"
+})'
+Current tracker state [{'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'AMBULATORIO' with intent '{'name': 'ambulatorio', 'confidence': 0.38228294632742404}' and entities '[]'
+Logged UserUtterance - tracker now has 48 events
+Current slot values: 
+
+Current tracker state [{'entity_modalidade': 1.0, 'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.99.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'entity_modalidade': 1.0, 'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horarios de treinos if ?' with intent '{'name': 'musculacao', 'confidence': 0.18770564565200354}' and entities '[]'
+Logged UserUtterance - tracker now has 34 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_musculacao' with prob 0.99.
+Sending message: Horarios de Treino Musculação:
+Action 'utter_musculacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino Musculação:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/z0ZlCOf.jpg"
+})'
+Current tracker state [{'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}, {'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'refeitório' with intent '{'name': 'alimentacao', 'confidence': 0.7427359701002653}' and entities '[]'
+Logged UserUtterance - tracker now has 38 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_handebol': 1.0}, {'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.99.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'intent_handebol': 1.0, 'prev_utter_handebol': 1.0}, {'intent_musculacao': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2400007783362167'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'horario do funcionamento do refeitório' with intent '{'name': 'alimentacao', 'confidence': 0.3414201427898464}' and entities '[]'
+Logged UserUtterance - tracker now has 42 events
+Current slot values: 
+
+Current tracker state [{'intent_musculacao': 1.0, 'prev_action_listen': 1.0}, {'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.99.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [{'intent_musculacao': 1.0, 'prev_utter_musculacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'e sobre o refeitorio?' with intent '{'name': 'ambulatorio', 'confidence': 0.36081475651378686}' and entities '[]'
+Logged UserUtterance - tracker now has 52 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_ambulatorio' with prob 0.99.
+Sending message: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:
+Action 'utter_ambulatorio' ended with events '[]'
+Bot utterance 'BotUttered(text: Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.
+
+Contato: (35) 3571-5064
+
+Horário de Atendimento Ambulatorial:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/9REJf6R.jpg"
+})'
+Current tracker state [{'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'fia, refeitorio' with intent '{'name': 'saudacao', 'confidence': 0.26450334439770185}' and entities '[]'
+Logged UserUtterance - tracker now has 56 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_saudacao' with prob 0.99.
+Sending message: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
+Action 'utter_saudacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'REFEITORIO mizera' with intent '{'name': 'artmarc', 'confidence': 0.2510545790367403}' and entities '[]'
+Logged UserUtterance - tracker now has 60 events
+Current slot values: 
+
+Current tracker state [{'prev_action_listen': 1.0, 'intent_ambulatorio': 1.0}, {'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.51.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{'intent_ambulatorio': 1.0, 'prev_utter_ambulatorio': 1.0}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'aff' with intent '{'name': 'despedida', 'confidence': 0.727694623172383}' and entities '[]'
+Logged UserUtterance - tracker now has 64 events
+Current slot values: 
+
+Current tracker state [{'intent_saudacao': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_despedida': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_despedida' with prob 0.99.
+Sending message: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/
+Action 'utter_despedida' ended with events '[]'
+Bot utterance 'BotUttered(text: Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_despedida': 1.0}, {'prev_utter_despedida': 1.0, 'intent_despedida': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.97.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'refeitorio' with intent '{'name': 'alimentacao', 'confidence': 0.5194929248657255}' and entities '[]'
+Logged UserUtterance - tracker now has 70 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '6'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_alimentacao' with prob 1.00.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+
+Contato: (35) 3571-5066
+
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/NtS8Ii4.jpg"
+})'
+Current tracker state [None, None, {}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'atividades de esportes' with intent '{'name': 'artmarc', 'confidence': 0.47048267373793284}' and entities '[]'
+Logged UserUtterance - tracker now has 74 events
+Current slot values: 
+
+Current tracker state [None, {}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_artmarc' with prob 0.43.
+Sending message: Horarios de Treino das Artes Marciais:
+Action 'utter_artmarc' ended with events '[]'
+Bot utterance 'BotUttered(text: Horarios de Treino das Artes Marciais:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "https://i.imgur.com/5ZB7m9c.jpg"
+})'
+Current tracker state [{}, {'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.99.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2357958354232763'
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'esportes ofertados' with intent '{'name': 'esporte', 'confidence': 0.5432959981260326}' and entities '[]'
+Logged UserUtterance - tracker now has 78 events
+Current slot values: 
+
+Current tracker state [{'intent_alimentacao': 1.0, 'prev_action_listen': 1.0}, {'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_esporte' with prob 0.99.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+
+-Artes Marciais
+-Musculação
+-Futsal
+-Voleibol
+-Handebol
+
+Contato: (35) 3571-5072, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_alimentacao': 1.0, 'prev_utter_alimentacao': 1.0}, {'prev_action_listen': 1.0, 'intent_artmarc': 1.0}, {'prev_utter_artmarc': 1.0, 'intent_artmarc': 1.0}, {'prev_action_listen': 1.0, 'intent_esporte': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is no memorised next action
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 0.98.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-pt_core_news_sm'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+fb_webhook.health                                  HEAD, OPTIONS, GET             /webhooks/facebook/
+fb_webhook.webhook                                 POST, OPTIONS                  /webhooks/facebook/webhook
+Rasa Core server is up and running on http://localhost:5000
+Creating a new tracker for id '2254351857975459'.
+C:\Users\jakeh\Anaconda2\envs\malu\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'ola boa tarde' with intent '{'name': 'saudacao', 'confidence': 0.20441660261860883}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [None, None, None, {}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '4'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'utter_saudacao' with prob 1.00.
+Sending message: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
+Action 'utter_saudacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Olá, meu nome é Cris! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_saudacao': 1.0, 'prev_action_listen': 1.0}, {'intent_saudacao': 1.0, 'prev_utter_saudacao': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_1_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
